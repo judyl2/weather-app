@@ -15,24 +15,37 @@
 	<body>
 		<div class="weather-app">
 			<header>
-				<form>
-					<input type="search" placeholder="Enter a city..." required />
-					<input type="submit" value="Search" />
+				<form class="search-form">
+					<input
+						type="search"
+						placeholder="Enter a city..."
+						required
+						class="search-input"
+					/>
+					<input type="submit" value="Search" class="search-button" />
 				</form>
 			</header>
-			<h1>Paris</h1>
-			<p>Updated Tuesday, Nov 6, 14:30</p>
-			<div>
-				<div>☀️ 11</div>
-
+			<main>
 				<div>
-					<ul>
-						<li>Humidity:</li>
-						<li>Wind:</li>
-						<li>Precipation:</li>
-					</ul>
+					<h1>Paris</h1>
+					<p>Updated Tuesday, Nov 6, 14:30</p>
+					<p class="weather-description">Sunny</p>
 				</div>
-			</div>
+				<div class="weather-data">
+					<div class="temp-data">
+						<span class="weather-icon">☀️</span>
+						<span> 11</span>
+						<span class="unit">°C </span>
+						<p class="high-low">High: Low:</p>
+					</div>
+
+					<div class="precipation-data">
+						<p>Precipation:</p>
+						<p>Humidity:</p>
+						<p>Wind:</p>
+					</div>
+				</div>
+			</main>
 			<footer>
 				Coded by
 				<a href="https://github.com/judyl2" target="blank">Judy</a> code hosted
