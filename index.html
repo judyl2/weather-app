@@ -27,25 +27,20 @@
 					<input type="submit" value="Search" class="search-button" />
 				</form>
 			</header>
-			<main>
+
+			<main class="weather-data">
 				<div>
 					<h1 id="city-header"></h1>
-					<p>Updated Tuesday, Nov 6, 14:30</p>
-					<p class="weather-description">Sunny</p>
+					<p id="time"></p>
+					<span>Humidity: <strong id="humidity"></strong></span>
+					<span>Wind: <strong id="wind"></strong></span>
+					<p id="weather-description"></p>
 				</div>
-				<div class="weather-data">
-					<div class="temp-data">
-						<span class="weather-icon">☀️</span>
-						<span id="temperature"> </span>
-						<span class="unit">°C </span>
-						<p class="high-low">High: Low:</p>
-					</div>
-
-					<div class="precipation-data">
-						<p>Precipation:</p>
-						<p>Humidity:</p>
-						<p>Wind:</p>
-					</div>
+				<div>
+					<span class="weather-icon">☀️</span>
+					<span id="temperature"> </span>
+					<span class="unit">°C </span>
+					<p class="high-low">High: Low:</p>
 				</div>
 			</main>
 			<footer>
