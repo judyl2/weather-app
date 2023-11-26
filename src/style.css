@@ -27,7 +27,7 @@ p,
 span {
 	color: gray;
 	margin: 5px 0;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 strong {
@@ -91,11 +91,11 @@ strong {
 	justify-content: space-between;
 }
 .forecast-date {
-	font-size: 18px;
+	font-size: 16px;
 	opacity: 0.6;
 }
 .forecast-temps {
-	font-size: 16px;
+	font-size: 14px;
 }
 footer {
 	border-top: 1px solid rgb(241, 241, 241);
